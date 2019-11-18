@@ -1,0 +1,9 @@
+﻿BillToDate,Project,Description,DurationHours,WorkItems,Category
+2019-08-05,SHP,"Pushing and testing Copy feature on Beta environment, checking database structure and organizing push to Prod",6,,Development
+2019-08-05,SHP,SHP-786 Created action on Service layer to prevent from trying to move a content that already belongs to a certain Category + Unit Tests (edge case when moving all content were failing due to some Glossary Items being already moved previously to the Category),3,,Development
+2019-08-06,SHP,"Deploying API to prod, checking the execution of database migrations and testing an initial login in the API",1,,Development
+2019-08-06,SHP,Sprint review and planning,1,,Development
+2019-08-06,SHP,Analyzing and designing remaining stories for Copy Phase 2 + creating tickets in Jira,3,,Development
+2019-08-06,SHP,Created migration to deactivate the standard Admin user in Prod only,3,,Development
+2019-08-07,SHP,SHP-786 Implementing action to perform batch update on Repository layer for Admins and Super Admins moving Glossary Items to certain category,4,,Development
+2019-08-07,SHP,Breaking down user stories for Copy Phase version 2 and Master List + estimation + writing user stories with acceptance criteria,4,,Development
