@@ -22,3 +22,12 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
 
+  list-artifacts:
+    runs-on: windows-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: my-artifact
+      - name: List artifacts
+        run: ls artifact
